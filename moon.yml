@@ -1,0 +1,10 @@
+id: 'root'
+language: javascript
+tasks:
+  base:
+    inputs: []
+    options:
+      cache: false
+  format:
+    extends: base
+    command: prettier --write .

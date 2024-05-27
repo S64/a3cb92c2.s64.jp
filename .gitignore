@@ -1,0 +1,6 @@
+/.pnpm-store/
+/node_modules/
+
+/.moon/cache/
+/.moon/docker/
+/.moon/hooks/

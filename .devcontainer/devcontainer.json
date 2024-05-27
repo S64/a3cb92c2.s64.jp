@@ -1,0 +1,32 @@
+{
+  "name": "a3cb92c2.s64.jp",
+  "image": "mcr.microsoft.com/devcontainers/base:1-jammy",
+  // https://github.com/devcontainers/images/blob/a3ade016ec898bb99b798ab556776490c861a0e9/src/base-ubuntu/.devcontainer/devcontainer.json#L9
+  "containerUser": "vscode",
+  "containerEnv": {
+    // https://github.com/devcontainers/images/blob/a3ade016ec898bb99b798ab556776490c861a0e9/src/base-ubuntu/.devcontainer/devcontainer.json#L9
+    "HOME": "/home/vscode"
+  },
+  // https://github.com/microsoft/vscode-remote-release/issues/4646#issuecomment-1796972801
+  "remoteUser": "root",
+  "remoteEnv": {
+    "LANG": "ja_JP.UTF-8",
+    "TZ": "Asia/Tokyo",
+    "PROTO_VERSION": "0.35.3",
+    "PROTO_HOME": "/opt/proto",
+    // https://github.com/microsoft/vscode-remote-release/issues/2324
+    "PATH": "${containerEnv:PATH}:/opt/proto/bin"
+  },
+  "onCreateCommand": "make -f .devcontainer/onCreateCommand.mk",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "ms-vscode.makefile-tools",
+        "unifiedjs.vscode-mdx",
+        "moonrepo.moon-console",
+        "EditorConfig.EditorConfig"
+      ]
+    }
+  }
+}

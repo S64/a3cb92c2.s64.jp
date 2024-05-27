@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "a3cb92c2.s64.jp",
+  "version": "1.0.0-SNAPSHOT",
+  "packageManager": "pnpm@9.1.2",
+  "files": [
+    "posts/",
+    "atman.config.json"
+  ],
+  "engines": {
+    "node": "20.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

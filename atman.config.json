@@ -1,0 +1,16 @@
+{
+  "$schema": "https://jsonschema.config.atman.kiganix.com/config.json",
+  "atman": {
+    "version": "SNAPSHOT",
+    "metadata": {
+      "title": "s64's blog",
+      "footer": {
+        "copyright": "a3cb92c2.s64.jp"
+      }
+    },
+    "canonical": {
+      "protocol": "https",
+      "hostname": "a3cb92c2.s64.jp"
+    }
+  }
+}
