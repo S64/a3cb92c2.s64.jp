@@ -11,6 +11,11 @@
     "canonical": {
       "protocol": "https",
       "hostname": "a3cb92c2.s64.jp"
+    },
+    "external": {
+      "gtm": {
+        "tagId": "GTM-M5RB6TFK"
+      }
     }
   }
 }
